@@ -19,13 +19,13 @@ public class calculator extends JFrame {
    private String operator;
    
    calculator(){
-      this.setTitle("∞ËªÍ±‚");//¡¶∏Ò
+      this.setTitle("Í≥ÑÏÇ∞Í∏∞");
       Image picture = Toolkit.getDefaultToolkit().getImage("calculator.gif");
       this.setIconImage(picture);
       this.setBounds(100,100,400,500);
       this.setLayout(new BorderLayout());
       JTextField display = new JTextField("0");
-      display.setFont(new Font("±√º≠√º", Font.BOLD, 50));
+      display.setFont(new Font("Í∂ÅÏÑúÏ≤¥", Font.BOLD, 50));
       display.setHorizontalAlignment(JTextField.RIGHT);
       JPanel panel = new JPanel();
       panel.setLayout(new GridLayout(4, 4));
@@ -93,7 +93,7 @@ public class calculator extends JFrame {
       this.add(panel);
    
       
-      JLabel status = new JLabel("∞ËªÍ±‚ ¿‘¥œ¥Ÿ.");
+      JLabel status = new JLabel("Í≥ÑÏÇ∞Í∏∞ ÏûÖÎãàÎã§.");
       
       this.add(BorderLayout.NORTH, display);
       this.add(BorderLayout.CENTER, panel);
