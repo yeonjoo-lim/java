@@ -93,7 +93,7 @@ public class calculator extends JFrame {
       this.add(panel);
    
       
-      JLabel status = new JLabel("계산기 입니다.");
+      JLabel status = new JLabel("계산기입니다.");
       
       this.add(BorderLayout.NORTH, display);
       this.add(BorderLayout.CENTER, panel);
